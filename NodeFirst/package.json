@@ -1,0 +1,15 @@
+{
+  "name": "node-first",
+  "version": "1.0.0",
+  "description": "first node.js exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "exercise"
+  ],
+  "author": "alboko",
+  "license": "ISC"
+}
