@@ -1,3 +1,5 @@
-// index.js
+// NodeFirst app entry point - index.js
 
-console.log('hello from Node.js')
+console.log('Welcome to NodeFirst exercise')
+
+require('./app/index')
