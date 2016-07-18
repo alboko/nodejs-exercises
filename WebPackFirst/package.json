@@ -2,12 +2,17 @@
   "name": "webpackfirst",
   "version": "1.0.0",
   "description": "WebPack exercise 1",
+
   "main": "index.js",
+
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+
   "author": "alboko",
   "license": "ISC",
+
   "dependencies": {
     "webpack": "^1.13.1"
   }
