@@ -5,6 +5,14 @@ var config = {
     output: {                     // output folder
         path: './dist',           // folder path
         filename: 'my-app.js'     // file name
+    },
+    module: {
+      loaders: [
+        {
+          test: /\.js$/,
+          loaders: ['babel']      // note that specifying 'babel' or 'babel-loader' is equivalent for Webpack
+        }
+      ]
     }
 }
 
